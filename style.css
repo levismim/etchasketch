@@ -1,14 +1,17 @@
 #container {
 display: flex;
-justify-content: center;
-flex-wrap: wrap;
-width: 800px;
-height: 800px;    
+height: 960px;
+width: 960px;
 }
-.square {
-background-color: yellow;
-height: 50px;
-width: 50px;
-padding: 0;
-margin: 0;
+
+.column {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    flex: 1 1 auto;
+}
+
+.row {
+    flex: 1 1 auto;
 }
